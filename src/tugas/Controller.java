@@ -47,7 +47,6 @@ public class Controller {
              ois.close();
              return readObject;
          } catch (ClassNotFoundException ex) {
-             
          } catch (FileNotFoundException ex) {
             Logger.getLogger(Controller.class.getName()).log(Level.SEVERE, null, ex);
         } catch (IOException ex) {

@@ -11,14 +11,15 @@ import tugas.MahasiswaCRUD;
  *
  * @author ASUS
  */
-public class ObjectPersistent {
+public class ObjectPersistence {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        MahasiswaCRUD.main(args);
+        MahasiswaCRUD mhs = new MahasiswaCRUD();
+        mhs.setVisible(true);
     }
     
 }
